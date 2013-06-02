@@ -1,0 +1,700 @@
+TLazyLoadTableImages
+v7
+r0
+t320837326.136578
+cCheck dependencies
+cCpResource build/Debug-iphoneos/LazyLoadTableImages.app/ResourceRules.plist /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/Info.plist LazyLoadTableImages-Info.plist
+cCompileXIB /Users/javra/Desktop/LazyLoadTableImages/MainWindow.xib
+cCompileXIB /Users/javra/Desktop/LazyLoadTableImages/LazyLoadTableImagesViewController.xib
+cCopyPNGFile /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/Placeholder.png Placeholder.png
+cCompileXIB /Users/javra/Desktop/LazyLoadTableImages/Classes/CustomCell.xib
+cProcessPCH /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-dqwjfsapqsgkkxcgbczsjefoyswx/LazyLoadTableImages_Prefix.pch.gch LazyLoadTableImages_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-ectposjahijglfgiadpstrwwnsnw/LazyLoadTableImages_Prefix.pch.gch LazyLoadTableImages_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/main.o /Users/javra/Desktop/LazyLoadTableImages/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImagesAppDelegate.o /Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImagesViewController.o /Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/CellData.o /Users/javra/Desktop/LazyLoadTableImages/Classes/CellData.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/ParseOperation.o /Users/javra/Desktop/LazyLoadTableImages/Classes/ParseOperation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/ImageDownloader.o /Users/javra/Desktop/LazyLoadTableImages/Classes/../ImageDownloader.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/CustomCell.o /Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/main.o /Users/javra/Desktop/LazyLoadTableImages/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImagesAppDelegate.o /Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImagesViewController.o /Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImages normal armv6
+cCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/CellData.o /Users/javra/Desktop/LazyLoadTableImages/Classes/CellData.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/ParseOperation.o /Users/javra/Desktop/LazyLoadTableImages/Classes/ParseOperation.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/ImageDownloader.o /Users/javra/Desktop/LazyLoadTableImages/Classes/../ImageDownloader.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/CustomCell.o /Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImages normal armv7
+cCreateUniversalBinary /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/LazyLoadTableImages normal "armv6 armv7"
+cGenerateDSYMFile /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app.dSYM /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/LazyLoadTableImages
+cProcessProductPackaging "/Users/javra/Library/MobileDevice/Provisioning Profiles/3E2E127C-F8DA-4D75-BBCC-B963E118090C.mobileprovision" /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/embedded.mobileprovision
+cTouch /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app
+cProcessProductPackaging /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages.xcent
+cCodeSign /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app
+
+N/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.h
+c000000004D74B3280000000000000182
+t1299493672
+s386
+i<UIKit/UIKit.h>
+
+N/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m
+c000000004D74B2A000000000000002E3
+t1299493536
+s739
+i"CustomCell.h"
+
+N/Users/javra/Desktop/LazyLoadTableImages/Classes/../ImageDownloader.h
+c000000004D6B8489000000000000039D
+t1298891913
+s925
+i<Foundation/Foundation.h>
+
+N/Users/javra/Desktop/LazyLoadTableImages/Classes/../ImageDownloader.m
+c000000004D74B8300000000000000A1B
+t1299494960
+s2587
+i"ImageDownloader.h"
+i"CellData.h"
+
+N/Users/javra/Desktop/LazyLoadTableImages/Classes/CellData.h
+c000000004D6B70B000000000000001A2
+t1298886832
+s418
+i<Foundation/Foundation.h>
+
+N/Users/javra/Desktop/LazyLoadTableImages/Classes/CellData.m
+c000000004D6B70F20000000000000142
+t1298886898
+s322
+i"CellData.h"
+
+N/Users/javra/Desktop/LazyLoadTableImages/Classes/CustomCell.xib
+c000000004D74CB7F0000000000004930
+t1299499903
+s18736
+
+N/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesAppDelegate.h
+c000000004D6B5FA80000000000000227
+t1298882472
+s551
+i<UIKit/UIKit.h>
+
+N/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesAppDelegate.m
+c000000004D6B67300000000000000BBE
+t1298884400
+s3006
+i"LazyLoadTableImagesAppDelegate.h"
+i"LazyLoadTableImagesViewController.h"
+
+N/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.h
+c000000004D74B2E30000000000000403
+t1299493603
+s1027
+i<UIKit/UIKit.h>
+i"CellData.h"
+i"ParseOperation.h"
+i"ImageDownloader.h"
+i"CustomCell.h"
+
+N/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m
+c000000004D74CDDB00000000000027D9
+t1299500507
+s10201
+i"LazyLoadTableImagesViewController.h"
+i"ParseOperation.h"
+i"ImageDownloader.h"
+
+N/Users/javra/Desktop/LazyLoadTableImages/Classes/ParseOperation.h
+c000000004D74C7CB000000000000048C
+t1299498955
+s1164
+i<Foundation/Foundation.h>
+
+N/Users/javra/Desktop/LazyLoadTableImages/Classes/ParseOperation.m
+c000000004D74C9F70000000000000DC3
+t1299499511
+s3523
+i"ParseOperation.h"
+i"CellData.h"
+
+N/Users/javra/Desktop/LazyLoadTableImages/CustomCell.h
+c000000004D74B3280000000000000182
+t1299493672
+s386
+i<UIKit/UIKit.h>
+
+N/Users/javra/Desktop/LazyLoadTableImages/ImageDownloader.h
+c000000004D6B8489000000000000039D
+t1298891913
+s925
+i<Foundation/Foundation.h>
+
+N/Users/javra/Desktop/LazyLoadTableImages/LazyLoadTableImagesViewController.xib
+c000000004D6B7BE60000000000004A77
+t1298889702
+s19063
+
+N/Users/javra/Desktop/LazyLoadTableImages/LazyLoadTableImages_Prefix.pch
+c000000004D6B5FA800000000000000CF
+t1298882472
+s207
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/javra/Desktop/LazyLoadTableImages/MainWindow.xib
+c000000004D6B5FA80000000000004EB9
+t1298882472
+s20153
+
+N/Users/javra/Desktop/LazyLoadTableImages/Placeholder.png
+c000000004C18FBDE00000000000002C7
+t1276705758
+s711
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app
+t1299144526
+s442
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app.dSYM
+t1299144525
+s102
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/CustomCell.nib
+t1299144524
+s1598
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/Info.plist
+t1299144524
+s835
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/LazyLoadTableImages
+t1299144525
+s122432
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/LazyLoadTableImagesViewController.nib
+t1299144524
+s1207
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/MainWindow.nib
+t1299144524
+s1147
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/PkgInfo
+t1299144524
+s8
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/Placeholder.png
+t1299144524
+s681
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/ResourceRules.plist
+t1299144524
+s485
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/embedded.mobileprovision
+t1299144525
+s7620
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages.xcent
+t1299144525
+s444
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/CellData.o
+t1299144525
+s10696
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/CustomCell.o
+t1299144525
+s6028
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/ImageDownloader.o
+t1299144525
+s21064
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImages
+t1299144525
+s54936
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImages.LinkFileList
+c000000004D6F5F4C0000000000000438
+t1299144524
+s1080
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImagesAppDelegate.o
+t1299144525
+s54660
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImagesViewController.o
+t1299144525
+s80088
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/ParseOperation.o
+t1299144525
+s22116
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/main.o
+t1299144525
+s6456
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/CellData.o
+t1299144525
+s10620
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/CustomCell.o
+t1299144525
+s6028
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/ImageDownloader.o
+t1299144525
+s20700
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImages
+t1299144525
+s50792
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImages.LinkFileList
+c000000004D6F5F4C0000000000000438
+t1299144524
+s1080
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImagesAppDelegate.o
+t1299144525
+s54568
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImagesViewController.o
+t1299144525
+s79520
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/ParseOperation.o
+t1299144525
+s21864
+
+N/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/main.o
+t1299144525
+s6440
+
+N/Users/javra/Desktop/LazyLoadTableImages/main.m
+c000000004D6B5FA80000000000000175
+t1298882472
+s373
+i<UIKit/UIKit.h>
+
+N/Users/javra/Library/MobileDevice/Provisioning Profiles/3E2E127C-F8DA-4D75-BBCC-B963E118090C.mobileprovision
+c000000004D6F38070000000000001DC4
+t1299134471
+s7620
+
+N/var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-dqwjfsapqsgkkxcgbczsjefoyswx/LazyLoadTableImages_Prefix.pch.gch
+t1299144525
+s9987800
+
+N/var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-ectposjahijglfgiadpstrwwnsnw/LazyLoadTableImages_Prefix.pch.gch
+t1299144525
+s10446552
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+NLazyLoadTableImages-Info.plist
+c000000004D6B5FA8000000000000038D
+t1298882472
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320837324#320837324#0(0"0(0#1#0"8634760480#0"0#
+
+CCodeSign /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app
+s320837325.987212
+e320837326.136542
+r1
+xCodeSign
+x/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app
+lSLF07#2@53"CodeSign build/Debug-iphoneos/LazyLoadTableImages.app320837325#320837326#0(0"0(0#0#85"/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app8620842816#720"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: frank Mollers (98EM2C2CNR)" --resource-rules=/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/ResourceRules.plist --entitlements /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages.xcent /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app0#
+
+CCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/CellData.o /Users/javra/Desktop/LazyLoadTableImages/Classes/CellData.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320837325.569083
+e320837325.639671
+r1
+xCompileC
+xbuild/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/CellData.o
+x/Users/javra/Desktop/LazyLoadTableImages/Classes/CellData.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/javra/Desktop/LazyLoadTableImages/Classes/CellData.m320837325#320837325#0(0"0(0#0#59"/Users/javra/Desktop/LazyLoadTableImages/Classes/CellData.m8635176480#2006"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-generated-files.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-own-target-headers.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-all-target-headers.hmap -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-project-headers.hmap -F/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -I/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/include -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources/armv6 -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources -include /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-dqwjfsapqsgkkxcgbczsjefoyswx/LazyLoadTableImages_Prefix.pch -c /Users/javra/Desktop/LazyLoadTableImages/Classes/CellData.m -o /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/CellData.o0#
+
+CCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/CustomCell.o /Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320837325.700147
+e320837325.750861
+r1
+xCompileC
+xbuild/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/CustomCell.o
+x/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'name' requires method '-name' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'name' requires the method 'setName:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'description' requires method '-description' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'description' requires the method 'setDescription:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'image' requires method '-image' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'image' requires the method 'setImage:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@72"Compile /Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m320837325#320837325#0(1223"/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'name' requires method '-name' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'name' requires the method 'setName:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'description' requires method '-description' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'description' requires the method 'setDescription:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'image' requires method '-image' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'image' requires the method 'setImage:' to be defined - use @synthesize, @dynamic or provide a method implementation6(22@116"Property 'name' requires method '-name' to be defined - use @synthesize, @dynamic or provide a method implementation320837325#0#195#0(6@64"/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m320671588#14#0#14#0#0"0(22@123"Property 'name' requires the method 'setName:' to be defined - use @synthesize, @dynamic or provide a method implementation320837325#195#202#0(6@64"/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m320671588#14#0#14#0#0"0(22@130"Property 'description' requires method '-description' to be defined - use @synthesize, @dynamic or provide a method implementation320837325#397#209#0(6@64"/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m320671588#14#0#14#0#0"0(22@137"Property 'description' requires the method 'setDescription:' to be defined - use @synthesize, @dynamic or provide a method implementation320837325#606#216#0(6@64"/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m320671588#14#0#14#0#0"0(22@118"Property 'image' requires method '-image' to be defined - use @synthesize, @dynamic or provide a method implementation320837325#822#197#0(6@64"/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m320671588#14#0#14#0#0"0(22@125"Property 'image' requires the method 'setImage:' to be defined - use @synthesize, @dynamic or provide a method implementation320837325#1019#204#0(6@64"/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m320671588#14#0#14#0#0"0(0#0#64"/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m8633676736#2013"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-generated-files.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-own-target-headers.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-all-target-headers.hmap -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-project-headers.hmap -F/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -I/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/include -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources/armv6 -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources -include /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-dqwjfsapqsgkkxcgbczsjefoyswx/LazyLoadTableImages_Prefix.pch -c /Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m -o /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/CustomCell.o0#
+
+CCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/ImageDownloader.o /Users/javra/Desktop/LazyLoadTableImages/Classes/../ImageDownloader.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320837325.639811
+e320837325.728863
+r1
+xCompileC
+xbuild/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/ImageDownloader.o
+x/Users/javra/Desktop/LazyLoadTableImages/Classes/../ImageDownloader.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/javra/Desktop/LazyLoadTableImages/Classes/../ImageDownloader.m320837325#320837325#0(0"0(0#0#69"/Users/javra/Desktop/LazyLoadTableImages/Classes/../ImageDownloader.m8634897472#2023"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-generated-files.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-own-target-headers.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-all-target-headers.hmap -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-project-headers.hmap -F/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -I/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/include -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources/armv6 -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources -include /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-dqwjfsapqsgkkxcgbczsjefoyswx/LazyLoadTableImages_Prefix.pch -c /Users/javra/Desktop/LazyLoadTableImages/Classes/../ImageDownloader.m -o /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/ImageDownloader.o0#
+
+CCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImagesAppDelegate.o /Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320837325.567133
+e320837325.706454
+r1
+xCompileC
+xbuild/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImagesAppDelegate.o
+x/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesAppDelegate.m320837325#320837325#0(0"0(0#0#81"/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesAppDelegate.m8637304480#2050"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-generated-files.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-own-target-headers.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-all-target-headers.hmap -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-project-headers.hmap -F/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -I/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/include -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources/armv6 -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources -include /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-dqwjfsapqsgkkxcgbczsjefoyswx/LazyLoadTableImages_Prefix.pch -c /Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesAppDelegate.m -o /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImagesAppDelegate.o0#
+
+CCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImagesViewController.o /Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320837325.568085
+e320837325.744362
+r1
+xCompileC
+xbuild/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImagesViewController.o
+x/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m: In function '-[LazyLoadTableImagesViewController tableView:cellForRowAtIndexPath:]':
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m:101: warning: 'LazyLoadTableImagesViewController' may not respond to '-startIconDownload:forIndexPath:'
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m:101: warning: (Messages without a matching method signature
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m:101: warning: will be assumed to return 'id' and accept
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m:101: warning: '...' as arguments.)
+lSLF07#2@92"Compile /Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m320837325#320837325#0(766"/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m: In function '-[LazyLoadTableImagesViewController tableView:cellForRowAtIndexPath:]':/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m:101: warning: 'LazyLoadTableImagesViewController' may not respond to '-startIconDownload:forIndexPath:'/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m:101: warning: (Messages without a matching method signature/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m:101: warning: will be assumed to return 'id' and accept/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m:101: warning: '...' as arguments.)2(22@89"'LazyLoadTableImagesViewController' may not respond to '-startIconDownload:forIndexPath:'320837325#171#189#0(6@84"/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m320585481#101#0#101#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)320837325#360#145#0(6@84"/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m320585481#101#0#101#0#0"0(0#0#84"/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m8636527712#2056"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-generated-files.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-own-target-headers.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-all-target-headers.hmap -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-project-headers.hmap -F/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -I/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/include -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources/armv6 -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources -include /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-dqwjfsapqsgkkxcgbczsjefoyswx/LazyLoadTableImages_Prefix.pch -c /Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m -o /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImagesViewController.o0#
+
+CCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/ParseOperation.o /Users/javra/Desktop/LazyLoadTableImages/Classes/ParseOperation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320837325.607680
+e320837325.700012
+r1
+xCompileC
+xbuild/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/ParseOperation.o
+x/Users/javra/Desktop/LazyLoadTableImages/Classes/ParseOperation.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/javra/Desktop/LazyLoadTableImages/Classes/ParseOperation.m320837325#320837325#0(0"0(0#0#65"/Users/javra/Desktop/LazyLoadTableImages/Classes/ParseOperation.m8630964064#2018"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-generated-files.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-own-target-headers.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-all-target-headers.hmap -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-project-headers.hmap -F/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -I/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/include -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources/armv6 -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources -include /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-dqwjfsapqsgkkxcgbczsjefoyswx/LazyLoadTableImages_Prefix.pch -c /Users/javra/Desktop/LazyLoadTableImages/Classes/ParseOperation.m -o /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/ParseOperation.o0#
+
+CCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/main.o /Users/javra/Desktop/LazyLoadTableImages/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320837325.566227
+e320837325.607551
+r1
+xCompileC
+xbuild/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/main.o
+x/Users/javra/Desktop/LazyLoadTableImages/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/javra/Desktop/LazyLoadTableImages/main.m320837325#320837325#0(0"0(0#0#47"/Users/javra/Desktop/LazyLoadTableImages/main.m8637585216#1990"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-generated-files.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-own-target-headers.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-all-target-headers.hmap -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-project-headers.hmap -F/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -I/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/include -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources/armv6 -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources -include /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-dqwjfsapqsgkkxcgbczsjefoyswx/LazyLoadTableImages_Prefix.pch -c /Users/javra/Desktop/LazyLoadTableImages/main.m -o /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/CellData.o /Users/javra/Desktop/LazyLoadTableImages/Classes/CellData.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320837325.769403
+e320837325.860594
+r1
+xCompileC
+xbuild/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/CellData.o
+x/Users/javra/Desktop/LazyLoadTableImages/Classes/CellData.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/javra/Desktop/LazyLoadTableImages/Classes/CellData.m320837325#320837325#0(0"0(0#0#59"/Users/javra/Desktop/LazyLoadTableImages/Classes/CellData.m8636427776#2006"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-generated-files.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-own-target-headers.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-all-target-headers.hmap -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-project-headers.hmap -F/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -I/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/include -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources/armv7 -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources -include /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-ectposjahijglfgiadpstrwwnsnw/LazyLoadTableImages_Prefix.pch -c /Users/javra/Desktop/LazyLoadTableImages/Classes/CellData.m -o /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/CellData.o0#
+
+CCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/CustomCell.o /Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320837325.860736
+e320837325.914698
+r1
+xCompileC
+xbuild/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/CustomCell.o
+x/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'name' requires method '-name' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'name' requires the method 'setName:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'description' requires method '-description' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'description' requires the method 'setDescription:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'image' requires method '-image' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'image' requires the method 'setImage:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@72"Compile /Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m320837325#320837325#0(1223"/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'name' requires method '-name' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'name' requires the method 'setName:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'description' requires method '-description' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'description' requires the method 'setDescription:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'image' requires method '-image' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m:14: warning: property 'image' requires the method 'setImage:' to be defined - use @synthesize, @dynamic or provide a method implementation6(22@116"Property 'name' requires method '-name' to be defined - use @synthesize, @dynamic or provide a method implementation320837325#0#195#0(6@64"/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m320671588#14#0#14#0#0"0(22@123"Property 'name' requires the method 'setName:' to be defined - use @synthesize, @dynamic or provide a method implementation320837325#195#202#0(6@64"/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m320671588#14#0#14#0#0"0(22@130"Property 'description' requires method '-description' to be defined - use @synthesize, @dynamic or provide a method implementation320837325#397#209#0(6@64"/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m320671588#14#0#14#0#0"0(22@137"Property 'description' requires the method 'setDescription:' to be defined - use @synthesize, @dynamic or provide a method implementation320837325#606#216#0(6@64"/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m320671588#14#0#14#0#0"0(22@118"Property 'image' requires method '-image' to be defined - use @synthesize, @dynamic or provide a method implementation320837325#822#197#0(6@64"/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m320671588#14#0#14#0#0"0(22@125"Property 'image' requires the method 'setImage:' to be defined - use @synthesize, @dynamic or provide a method implementation320837325#1019#204#0(6@64"/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m320671588#14#0#14#0#0"0(0#0#64"/Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m8636811968#2013"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-generated-files.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-own-target-headers.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-all-target-headers.hmap -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-project-headers.hmap -F/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -I/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/include -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources/armv7 -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources -include /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-ectposjahijglfgiadpstrwwnsnw/LazyLoadTableImages_Prefix.pch -c /Users/javra/Desktop/LazyLoadTableImages/Classes/../CustomCell.m -o /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/CustomCell.o0#
+
+CCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/ImageDownloader.o /Users/javra/Desktop/LazyLoadTableImages/Classes/../ImageDownloader.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320837325.815054
+e320837325.906400
+r1
+xCompileC
+xbuild/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/ImageDownloader.o
+x/Users/javra/Desktop/LazyLoadTableImages/Classes/../ImageDownloader.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/javra/Desktop/LazyLoadTableImages/Classes/../ImageDownloader.m320837325#320837325#0(0"0(0#0#69"/Users/javra/Desktop/LazyLoadTableImages/Classes/../ImageDownloader.m8633132928#2023"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-generated-files.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-own-target-headers.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-all-target-headers.hmap -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-project-headers.hmap -F/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -I/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/include -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources/armv7 -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources -include /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-ectposjahijglfgiadpstrwwnsnw/LazyLoadTableImages_Prefix.pch -c /Users/javra/Desktop/LazyLoadTableImages/Classes/../ImageDownloader.m -o /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/ImageDownloader.o0#
+
+CCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImagesAppDelegate.o /Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320837325.729090
+e320837325.814932
+r1
+xCompileC
+xbuild/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImagesAppDelegate.o
+x/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesAppDelegate.m320837325#320837325#0(0"0(0#0#81"/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesAppDelegate.m8629232992#2050"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-generated-files.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-own-target-headers.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-all-target-headers.hmap -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-project-headers.hmap -F/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -I/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/include -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources/armv7 -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources -include /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-ectposjahijglfgiadpstrwwnsnw/LazyLoadTableImages_Prefix.pch -c /Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesAppDelegate.m -o /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImagesAppDelegate.o0#
+
+CCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImagesViewController.o /Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320837325.745086
+e320837325.889667
+r1
+xCompileC
+xbuild/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImagesViewController.o
+x/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m: In function '-[LazyLoadTableImagesViewController tableView:cellForRowAtIndexPath:]':
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m:101: warning: 'LazyLoadTableImagesViewController' may not respond to '-startIconDownload:forIndexPath:'
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m:101: warning: (Messages without a matching method signature
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m:101: warning: will be assumed to return 'id' and accept
+o/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m:101: warning: '...' as arguments.)
+lSLF07#2@92"Compile /Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m320837325#320837325#0(766"/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m: In function '-[LazyLoadTableImagesViewController tableView:cellForRowAtIndexPath:]':/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m:101: warning: 'LazyLoadTableImagesViewController' may not respond to '-startIconDownload:forIndexPath:'/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m:101: warning: (Messages without a matching method signature/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m:101: warning: will be assumed to return 'id' and accept/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m:101: warning: '...' as arguments.)2(22@89"'LazyLoadTableImagesViewController' may not respond to '-startIconDownload:forIndexPath:'320837325#171#189#0(6@84"/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m320585481#101#0#101#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)320837325#360#145#0(6@84"/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m320585481#101#0#101#0#0"0(0#0#84"/Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m8637816704#2056"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-generated-files.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-own-target-headers.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-all-target-headers.hmap -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-project-headers.hmap -F/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -I/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/include -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources/armv7 -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources -include /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-ectposjahijglfgiadpstrwwnsnw/LazyLoadTableImages_Prefix.pch -c /Users/javra/Desktop/LazyLoadTableImages/Classes/LazyLoadTableImagesViewController.m -o /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImagesViewController.o0#
+
+CCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/ParseOperation.o /Users/javra/Desktop/LazyLoadTableImages/Classes/ParseOperation.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320837325.788472
+e320837325.892731
+r1
+xCompileC
+xbuild/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/ParseOperation.o
+x/Users/javra/Desktop/LazyLoadTableImages/Classes/ParseOperation.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/javra/Desktop/LazyLoadTableImages/Classes/ParseOperation.m320837325#320837325#0(0"0(0#0#65"/Users/javra/Desktop/LazyLoadTableImages/Classes/ParseOperation.m8634183296#2018"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-generated-files.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-own-target-headers.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-all-target-headers.hmap -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-project-headers.hmap -F/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -I/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/include -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources/armv7 -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources -include /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-ectposjahijglfgiadpstrwwnsnw/LazyLoadTableImages_Prefix.pch -c /Users/javra/Desktop/LazyLoadTableImages/Classes/ParseOperation.m -o /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/ParseOperation.o0#
+
+CCompileC build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/main.o /Users/javra/Desktop/LazyLoadTableImages/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320837325.706581
+e320837325.769269
+r1
+xCompileC
+xbuild/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/main.o
+x/Users/javra/Desktop/LazyLoadTableImages/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/javra/Desktop/LazyLoadTableImages/main.m320837325#320837325#0(0"0(0#0#47"/Users/javra/Desktop/LazyLoadTableImages/main.m8631293248#1990"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-generated-files.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-own-target-headers.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-all-target-headers.hmap -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-project-headers.hmap -F/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -I/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/include -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources/armv7 -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources -include /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-ectposjahijglfgiadpstrwwnsnw/LazyLoadTableImages_Prefix.pch -c /Users/javra/Desktop/LazyLoadTableImages/main.m -o /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/javra/Desktop/LazyLoadTableImages/Classes/CustomCell.xib
+s320837324.428494
+e320837324.856163
+r1
+xCompileXIB
+x/Users/javra/Desktop/LazyLoadTableImages/Classes/CustomCell.xib
+lSLF07#2@33"CompileXIB Classes/CustomCell.xib320837324#320837324#0(0"0(0#0#63"/Users/javra/Desktop/LazyLoadTableImages/Classes/CustomCell.xib8635422624#572"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/CustomCell.nib /Users/javra/Desktop/LazyLoadTableImages/Classes/CustomCell.xib --sdk /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/javra/Desktop/LazyLoadTableImages/LazyLoadTableImagesViewController.xib
+s320837324.427006
+e320837324.837778
+r1
+xCompileXIB
+x/Users/javra/Desktop/LazyLoadTableImages/LazyLoadTableImagesViewController.xib
+lSLF07#2@48"CompileXIB LazyLoadTableImagesViewController.xib320837324#320837324#0(0"0(0#0#78"/Users/javra/Desktop/LazyLoadTableImages/LazyLoadTableImagesViewController.xib8635621376#610"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/LazyLoadTableImagesViewController.nib /Users/javra/Desktop/LazyLoadTableImages/LazyLoadTableImagesViewController.xib --sdk /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/javra/Desktop/LazyLoadTableImages/MainWindow.xib
+s320837324.426289
+e320837324.804024
+r1
+xCompileXIB
+x/Users/javra/Desktop/LazyLoadTableImages/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib320837324#320837324#0(0"0(0#0#55"/Users/javra/Desktop/LazyLoadTableImages/MainWindow.xib8635801920#564"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/MainWindow.nib /Users/javra/Desktop/LazyLoadTableImages/MainWindow.xib --sdk /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/Placeholder.png Placeholder.png
+s320837324.427726
+e320837324.505279
+r1
+xCopyPNGFile
+x/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/Placeholder.png
+xPlaceholder.png
+lSLF07#2@88"CopyPNGFile build/Debug-iphoneos/LazyLoadTableImages.app/Placeholder.png Placeholder.png320837324#320837324#0(0"0(0#0#56"/Users/javra/Desktop/LazyLoadTableImages/Placeholder.png8635537920#592"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv COPY_COMMAND /xcode3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/javra/Desktop/LazyLoadTableImages/Placeholder.png /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/Placeholder.png0#
+
+CCpResource build/Debug-iphoneos/LazyLoadTableImages.app/ResourceRules.plist /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s320837324.421198
+e320837324.426212
+r1
+xCpResource
+xbuild/Debug-iphoneos/LazyLoadTableImages.app/ResourceRules.plist
+x/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@95"Copy /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist320837324#320837324#0(0"0(0#0#90"/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8636334624#514"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app0#
+
+CCreateUniversalBinary /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/LazyLoadTableImages normal "armv6 armv7"
+s320837325.938741
+e320837325.941423
+r1
+xCreateUniversalBinary
+x/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/LazyLoadTableImages
+xnormal
+xarmv6 armv7
+lSLF07#2@107"CreateUniversalBinary build/Debug-iphoneos/LazyLoadTableImages.app/LazyLoadTableImages normal "armv6 armv7"320837325#320837325#0(0"0(0#0#52"/Users/javra/Desktop/LazyLoadTableImages/armv6 armv78634291360#624"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImages /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImages -output /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/LazyLoadTableImages0#
+
+CGenerateDSYMFile /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app.dSYM /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/LazyLoadTableImages
+s320837325.941483
+e320837325.964348
+r1
+xGenerateDSYMFile
+x/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app.dSYM
+x/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/LazyLoadTableImages
+lSLF07#2@131"GenerateDSYMFile build/Debug-iphoneos/LazyLoadTableImages.app.dSYM build/Debug-iphoneos/LazyLoadTableImages.app/LazyLoadTableImages320837325#320837325#0(0"0(0#0#105"/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/LazyLoadTableImages8633736128#407"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/usr/bin/dsymutil /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/LazyLoadTableImages -o /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app.dSYM0#
+
+CLd /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImages normal armv6
+s320837325.750984
+e320837325.788327
+r1
+xLd
+x/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImages
+xnormal
+xarmv6
+lSLF07#2@159"Link /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImages320837325#320837325#0(0"0(0#0#0"8636866464#945"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -F/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -filelist /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImages.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv6/LazyLoadTableImages0#
+
+CLd /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImages normal armv7
+s320837325.914811
+e320837325.938548
+r1
+xLd
+x/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImages
+xnormal
+xarmv7
+lSLF07#2@159"Link /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImages320837325#320837325#0(0"0(0#0#0"8635101120#945"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -F/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -filelist /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImages.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/Objects-normal/armv7/LazyLoadTableImages0#
+
+CProcessInfoPlistFile /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/Info.plist LazyLoadTableImages-Info.plist
+s320837324.422212
+e320837324.425756
+r1
+xProcessInfoPlistFile
+x/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/Info.plist
+xLazyLoadTableImages-Info.plist
+lSLF07#2@38"Process LazyLoadTableImages-Info.plist320837324#320837324#0(0"0(0#0#71"/Users/javra/Desktop/LazyLoadTableImages/LazyLoadTableImages-Info.plist8636222816#620"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility LazyLoadTableImages-Info.plist -genpkginfo /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/ResourceRules.plist -o /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/Info.plist0#
+
+CProcessPCH /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-dqwjfsapqsgkkxcgbczsjefoyswx/LazyLoadTableImages_Prefix.pch.gch LazyLoadTableImages_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320837324.856310
+e320837325.552164
+r1
+xProcessPCH
+x/var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-dqwjfsapqsgkkxcgbczsjefoyswx/LazyLoadTableImages_Prefix.pch.gch
+xLazyLoadTableImages_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Precompile LazyLoadTableImages_Prefix.pch320837324#320837325#0(0"0(0#0#71"/Users/javra/Desktop/LazyLoadTableImages/LazyLoadTableImages_Prefix.pch8636014816#1874"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-generated-files.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-own-target-headers.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-all-target-headers.hmap -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-project-headers.hmap -F/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -I/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/include -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources/armv6 -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources -c /Users/javra/Desktop/LazyLoadTableImages/LazyLoadTableImages_Prefix.pch -o /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-dqwjfsapqsgkkxcgbczsjefoyswx/LazyLoadTableImages_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-ectposjahijglfgiadpstrwwnsnw/LazyLoadTableImages_Prefix.pch.gch LazyLoadTableImages_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320837324.857171
+e320837325.566103
+r1
+xProcessPCH
+x/var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-ectposjahijglfgiadpstrwwnsnw/LazyLoadTableImages_Prefix.pch.gch
+xLazyLoadTableImages_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Precompile LazyLoadTableImages_Prefix.pch320837324#320837325#0(0"0(0#0#71"/Users/javra/Desktop/LazyLoadTableImages/LazyLoadTableImages_Prefix.pch8635703392#1874"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-generated-files.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-own-target-headers.hmap -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-all-target-headers.hmap -iquote /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages-project-headers.hmap -F/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos -I/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/include -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources/armv7 -I/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/DerivedSources -c /Users/javra/Desktop/LazyLoadTableImages/LazyLoadTableImages_Prefix.pch -o /var/folders/rk/rk2wF46IHYW7J5nxr7MEQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LazyLoadTableImages_Prefix-ectposjahijglfgiadpstrwwnsnw/LazyLoadTableImages_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/javra/Library/MobileDevice/Provisioning Profiles/3E2E127C-F8DA-4D75-BBCC-B963E118090C.mobileprovision" /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/embedded.mobileprovision
+s320837325.964443
+e320837325.965313
+r1
+xProcessProductPackaging
+x/Users/javra/Library/MobileDevice/Provisioning Profiles/3E2E127C-F8DA-4D75-BBCC-B963E118090C.mobileprovision
+x/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/embedded.mobileprovision
+lSLF07#2@204"ProcessProductPackaging "/Users/javra/Library/MobileDevice/Provisioning Profiles/3E2E127C-F8DA-4D75-BBCC-B963E118090C.mobileprovision" build/Debug-iphoneos/LazyLoadTableImages.app/embedded.mobileprovision320837325#320837325#0(0"0(0#0#110"/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/embedded.mobileprovision8633208832#441"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/javra/Library/MobileDevice/Provisioning Profiles/3E2E127C-F8DA-4D75-BBCC-B963E118090C.mobileprovision" -o /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages.xcent
+s320837325.967719
+e320837325.987133
+r1
+xProcessProductPackaging
+x/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages.xcent
+lSLF07#2@212"ProcessProductPackaging /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages.xcent320837325#320837325#0(0"0(0#0#139"/Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages.xcent8630286944#475"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /xcode3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/javra/Desktop/LazyLoadTableImages/build/LazyLoadTableImages.build/Debug-iphoneos/LazyLoadTableImages.build/LazyLoadTableImages.xcent0#
+
+CTouch /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app
+s320837325.965359
+e320837325.967644
+r1
+xTouch
+x/Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app
+lSLF07#2@91"Touch /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app320837325#320837325#0(0"0(0#0#0"8632374400#282"    cd /Users/javra/Desktop/LazyLoadTableImages    setenv PATH "/xcode3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/javra/Desktop/LazyLoadTableImages/build/Debug-iphoneos/LazyLoadTableImages.app0#
+
