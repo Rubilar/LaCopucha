@@ -91,8 +91,6 @@ static NSString *kEntryStr  = @"entry";
         {
             NSString *trimmedString = [workingPropertyString stringByTrimmingCharactersInSet:
                                        [NSCharacterSet whitespaceAndNewlineCharacterSet]];
-            NSLog(elementName);
-            NSLog(trimmedString);
             [workingPropertyString setString:@""];  // clear the string for next time
             if ([elementName isEqualToString:kImageStr])
             {

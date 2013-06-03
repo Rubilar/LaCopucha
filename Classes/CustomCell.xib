@@ -88,7 +88,7 @@
 								<string key="NSFrame">{{10, 0}, {300, 100}}</string>
 								<reference key="NSSuperview" ref="279107457"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="826277468"/>
+								<reference key="NSNextKeyView" ref="580444604"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -191,7 +191,6 @@
 								<string key="NSFrame">{{122, 47}, {177, 46}}</string>
 								<reference key="NSSuperview" ref="279107457"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -231,7 +230,7 @@
 								<string key="NSFrameSize">{50, 50}</string>
 								<reference key="NSSuperview" ref="279107457"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="580444604"/>
+								<reference key="NSNextKeyView" ref="493684167"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -244,7 +243,7 @@
 						<string key="NSFrameSize">{319, 100}</string>
 						<reference key="NSSuperview" ref="816754902"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="493684167"/>
+						<reference key="NSNextKeyView" ref="826277468"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MCAwAA</bytes>
@@ -489,10 +488,6 @@
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
-		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.iPhoneOS</string>
-			<real value="1552" key="NS.object.0"/>
-		</object>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.InterfaceBuilder3</string>
 			<integer value="3100" key="NS.object.0"/>
