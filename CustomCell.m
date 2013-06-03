@@ -10,7 +10,7 @@
 
 
 @implementation CustomCell
-@synthesize itemImage,name,artist;
+@synthesize itemImage,name,summary,date;
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
@@ -33,7 +33,8 @@
     [super dealloc];
 	[itemImage release];
 	[name release];
-    [artist release];
+    [summary release];
+    [date release];
 }
 
 

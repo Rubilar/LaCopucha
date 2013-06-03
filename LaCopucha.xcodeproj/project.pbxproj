@@ -21,6 +21,10 @@
 		37A14FDB175BAF8B0067A2C1 /* apple-touch-icon-114x114-precomposed.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A14FDA175BAF8B0067A2C1 /* apple-touch-icon-114x114-precomposed.png */; };
 		37A14FDD175BB6870067A2C1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A14FDC175BB6870067A2C1 /* Default.png */; };
 		37A14FDF175BB6970067A2C1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A14FDE175BB6970067A2C1 /* Default@2x.png */; };
+		37A14FE1175BC95D0067A2C1 /* tv-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A14FE0175BC95D0067A2C1 /* tv-icon.png */; };
+		37A14FE3175C05200067A2C1 /* viral2.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A14FE2175C05200067A2C1 /* viral2.png */; };
+		37A14FE5175C053A0067A2C1 /* viral.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A14FE4175C053A0067A2C1 /* viral.png */; };
+		37A14FE7175C05480067A2C1 /* viral0.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A14FE6175C05480067A2C1 /* viral0.png */; };
 		D53A1BFA1324E8D200B7F100 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D53A1BF91324E8D200B7F100 /* CustomCell.m */; };
 		D53A1BFC1324E95600B7F100 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D53A1BFB1324E95600B7F100 /* CustomCell.xib */; };
 		D5ACEF1F131B9B1600F51AF5 /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = D5ACEF1E131B9B1600F51AF5 /* Placeholder.png */; };
@@ -48,6 +52,10 @@
 		37A14FDA175BAF8B0067A2C1 /* apple-touch-icon-114x114-precomposed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-114x114-precomposed.png"; sourceTree = "<group>"; };
 		37A14FDC175BB6870067A2C1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		37A14FDE175BB6970067A2C1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		37A14FE0175BC95D0067A2C1 /* tv-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tv-icon.png"; sourceTree = "<group>"; };
+		37A14FE2175C05200067A2C1 /* viral2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viral2.png; sourceTree = "<group>"; };
+		37A14FE4175C053A0067A2C1 /* viral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viral.png; sourceTree = "<group>"; };
+		37A14FE6175C05480067A2C1 /* viral0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viral0.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* LaCopucha-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LaCopucha-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D53A1BF81324E8D200B7F100 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCell.h; path = ../CustomCell.h; sourceTree = "<group>"; };
 		D53A1BF91324E8D200B7F100 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCell.m; path = ../CustomCell.m; sourceTree = "<group>"; };
@@ -151,6 +159,10 @@
 		D5ACEF1D131B9B0A00F51AF5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				37A14FE2175C05200067A2C1 /* viral2.png */,
+				37A14FE6175C05480067A2C1 /* viral0.png */,
+				37A14FE4175C053A0067A2C1 /* viral.png */,
+				37A14FE0175BC95D0067A2C1 /* tv-icon.png */,
 				37A14FD6175B49AF0067A2C1 /* box.png */,
 				37A14FD4175AEB100067A2C1 /* logo.png */,
 				D5ACEF1E131B9B1600F51AF5 /* Placeholder.png */,
@@ -226,6 +238,10 @@
 				37A14FDB175BAF8B0067A2C1 /* apple-touch-icon-114x114-precomposed.png in Resources */,
 				37A14FDD175BB6870067A2C1 /* Default.png in Resources */,
 				37A14FDF175BB6970067A2C1 /* Default@2x.png in Resources */,
+				37A14FE1175BC95D0067A2C1 /* tv-icon.png in Resources */,
+				37A14FE3175C05200067A2C1 /* viral2.png in Resources */,
+				37A14FE5175C053A0067A2C1 /* viral.png in Resources */,
+				37A14FE7175C05480067A2C1 /* viral0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

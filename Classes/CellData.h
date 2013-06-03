@@ -11,13 +11,16 @@
 
 @interface CellData : NSObject {
 	NSString *name;
-    NSString *artist;
+    NSString *summary;
+    NSString *date;
 	UIImage *icon;
 	NSString *iconUrl;
+    
 
 }
 @property (nonatomic, retain) NSString *name;
-@property (nonatomic, retain) NSString *artist;
+@property (nonatomic, retain) NSString *summary;
+@property (nonatomic, retain) NSString *date;
 @property (nonatomic, retain) UIImage *icon;
 @property (nonatomic, retain) NSString *iconUrl;
 @end

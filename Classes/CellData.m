@@ -10,14 +10,15 @@
 
 
 @implementation CellData
-@synthesize name,artist,icon,iconUrl;
+@synthesize name,summary,date,icon,iconUrl;
 
 - (void)dealloc
 {
 [name release];
-[artist release];
+[date release];
 [icon release];
 [iconUrl release];
+[summary release];
 
 [super dealloc];
 }

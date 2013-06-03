@@ -13,7 +13,8 @@
 static NSString *kIDStr     = @"id";
 static NSString *kNameStr   = @"im:name";
 static NSString *kImageStr  = @"im:image";
-static NSString *kArtistStr = @"im:artist";
+static NSString *kDateStr = @"im:releaseDate";
+static NSString *kSummaryStr = @"summary";
 static NSString *kEntryStr  = @"entry";
 
 @implementation ParseOperation
@@ -26,7 +27,7 @@ static NSString *kEntryStr  = @"entry";
     {
         self.dataToParse = data;
         self.delegate = theDelegate;
-		self.elementsToParse = [NSArray arrayWithObjects:kIDStr, kNameStr, kImageStr, kArtistStr, nil];
+		self.elementsToParse = [NSArray arrayWithObjects:kIDStr,kSummaryStr, kNameStr, kImageStr, kDateStr, nil];
 
     }
     return self;
@@ -90,20 +91,26 @@ static NSString *kEntryStr  = @"entry";
         {
             NSString *trimmedString = [workingPropertyString stringByTrimmingCharactersInSet:
                                        [NSCharacterSet whitespaceAndNewlineCharacterSet]];
+            NSLog(elementName);
+            NSLog(trimmedString);
             [workingPropertyString setString:@""];  // clear the string for next time
             if ([elementName isEqualToString:kImageStr])
             {
                 self.cellData.iconUrl = trimmedString;
             }
+            else if ([elementName isEqualToString:kSummaryStr])
+            {
+                self.cellData.summary = trimmedString;
+            }
             else if ([elementName isEqualToString:kNameStr])
             {        
                 self.cellData.name = trimmedString;
             }
-            else if ([elementName isEqualToString:kArtistStr])
+            else if ([elementName isEqualToString:kDateStr])
             {
-                self.cellData.artist = trimmedString;
+                self.cellData.date = trimmedString;
             }
-                    }
+        }
         else if ([elementName isEqualToString:kEntryStr] ) {
 			[self.workingArray addObject:self.cellData];
 			self.cellData=nil;

@@ -13,11 +13,13 @@
 	
 	UIImageView *itemImage;
 	UILabel *name;
-    UILabel *artist;
+    UILabel *date;
+    UILabel *summary;
 	
 
 }
 @property (nonatomic,retain) IBOutlet UIImageView *itemImage;
 @property (nonatomic,retain) IBOutlet UILabel *name;
-@property (nonatomic,retain) IBOutlet UILabel *artist;
+@property (nonatomic,retain) IBOutlet UILabel *summary;
+@property (nonatomic,retain) IBOutlet UILabel *date;
 @end

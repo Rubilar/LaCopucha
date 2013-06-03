@@ -92,7 +92,8 @@ static NSString *const xmlDataUrl =
         CellData *cellData = [self.tableElements objectAtIndex:indexPath.row];
         
 		cell.name.text = cellData.name;
-        cell.artist.text = cellData.artist;
+        cell.summary.text = cellData.summary;
+        cell.date.text = cellData.date;
 		
         // Only load cached images; defer new downloads until scrolling ends
         if (!cellData.icon)
@@ -102,7 +103,7 @@ static NSString *const xmlDataUrl =
                 [self startIconDownload:cellData forIndexPath:indexPath];
             }
             // if a download is deferred or in progress, return a placeholder image
-            cell.itemImage.image = [UIImage imageNamed:@"Placeholder.png"];                
+            cell.itemImage.image = [UIImage imageNamed:@"tv-icon.png"];                
         }
         else
         {
